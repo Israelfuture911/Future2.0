@@ -1,0 +1,35 @@
+* {
+    margin: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+header {
+    background-image: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    border-style: solid;
+}
+ body {
+    background-color: rgb(223, 252, 129);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+    font-style: oblique;
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+.photo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    transition: transform 0.3s ease-in-out;
+    transition: scale(1.1);
+    
+}
+.photo img{
+    width: 100%;
+    height: 70vh;
+  
+}
